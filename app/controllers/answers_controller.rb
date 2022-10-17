@@ -1,5 +1,6 @@
 class AnswersController < ApplicationController
-  def Answer
+  def answer
+    @answer = params[:answer]
     
   end
 
